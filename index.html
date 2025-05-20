@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bitácora Dev</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
-    <link rel="icon" href="./mango.jpeg">
+    <link rel="icon" href="imgs/mango.jpeg">
     <style>
         body {
             background-color: #6e90b3;
@@ -26,6 +26,17 @@
         .entry-content {
             text-align: justify;
         }
+
+        img {
+            border-radius: 12px;
+        }
+
+        .steps {
+            max-width: 100%;
+            height: auto;
+            
+            margin: 10px auto;
+        }
     </style>
 </head>
 
@@ -36,71 +47,161 @@
             <p class="text-muted">Cuaderno de apuntes para el desarrollo web</p>
         </header>
 
-        <article class="mb-5 bg-white p-4 rounded shadow">
-            <h2 class="entry-title mb-3">Node.JS</h2>
-            <p class="entry-content">
-                Node.js es un entorno de ejecución para JavaScript que permite ejecutar código en el servidor. Fue
-                creado sobre el motor V8 de Google Chrome.
-                <br><br>
-                Con Node.js puedes crear servidores web, APIs REST, trabajar con bases de datos y mucho más. Su
-                ecosistema, con <strong>npm</strong> como gestor de paquetes.
-                <br><br>
-                Uno de sus principales beneficios es que permite a los desarrolladores usar JavaScript en el backend, lo
-                cual unifica el lenguaje tanto en cliente como en servidor.
-            </p>
+
+        <article class="mb-5 bg-secondary p-4 rounded shadow">
+            <h2 class="entry-title mb-3 ">NodeJS-Desarrolo Web</h2>
+            <hr>
+            <article class="mb-5 bg-white p-4 rounded shadow">
+                <p class="entry-content">
+                    <strong>Node.js </strong>es un entorno de ejecución para JavaScript que permite ejecutar código en
+                    el servidor. Fue
+                    creado sobre el motor V8 de Google Chrome.
+                    <br>
+                    Con Node.js puedes crear servidores web, APIs REST, trabajar con bases de datos y mucho más. Su
+                    ecosistema, con <strong>npm</strong> como gestor de paquetes.
+                    <br>
+                    Uno de sus principales beneficios es que permite a los desarrolladores usar JavaScript en el
+                    backend, lo
+                    cual unifica el lenguaje tanto en cliente como en servidor.
+                </p>
+            </article>
+
+
+            <article class="mb-5 bg-white p-4 rounded shadow">
+                <h2>Diferencias entre JavaScript en el Frontend y en el Backend</h2>
+                <p><strong>Frontend:</strong> Se ejecuta en el navegador. Se usa para manipular el DOM, manejar eventos
+                    de
+                    usuario, y actualizar la interfaz visual de una página web.</p>
+                <p><strong>Backend:</strong> Se ejecuta en el servidor (con Node.js). Se encarga de la lógica
+                    de negocio, conexión con bases de datos, autenticación, y procesamiento de datos.</p>
+            </article>
+
+            <article class="mb-5 bg-white p-4 rounded shadow">
+                <h2>Ventajas y desventajas de usar JavaScript en el Backend</h2>
+                <p><strong>Ventajas:</strong> Uso de un solo lenguaje (JS) para frontend y backend, gran comunidad, no
+                    bloqueante (event loop), ideal para APIs.</p>
+                <p><strong>Desventajas:</strong> No tan eficiente como otros lenguajes en operaciones intensas de CPU,
+                    menos
+                    robusto en comparación con lenguajes como Java o C#.</p>
+            </article>
+
+            <article class="mb-5 bg-white p-4 rounded shadow">
+                <h2>Instalación y configuración de Node.js</h2>
+                <ol>
+                    <strong>
+                        <li>Ir a la página oficial: <a href="https://nodejs.org" target="_blank">nodejs.org</a></li>
+                    </strong>
+                    <strong>
+                        <p>Descargar la versión LTS.</p>
+                    </strong>
+                    <img class="steps" src="imgs/noderg.png" alt="">
+                    <br><br>
+                    <strong>
+                        <li>Ejecutar el instalador y seguir los pasos.</li>
+                    </strong>
+                    <img class="steps" src="imgs/ejecutarExe.png" alt="">
+                    <br><br>
+                    <img class="steps" src="imgs/step1.png" alt="">
+                    <br><br>
+                    <strong>
+                        <li>
+                            <p>Aceptar el contrato</p>
+                        </li>
+                    </strong>
+                    <img class="steps" src="imgs/step2.png" alt="">
+                    <br><br>
+                    <strong>
+                        <li>
+                            <p>Ruta donde se va a instalar</p>
+                        </li>
+                    </strong>
+                    <img class="steps" src="imgs/step3.png" alt="">
+                    <br><br>
+                    <strong>
+                        <li>
+                            <p>Dejamos eso asi hacemos clik en next</p>
+                        </li>
+                    </strong>
+                    <img class="steps" src="imgs/step4.png" alt="">
+                    <br><br>
+                    <strong>
+                        <li>
+                            <p>yo instalo todo eso por si acaso entonces le doy chulito</p>
+                        </li>
+                    </strong>
+                    <img class="steps" src="imgs/step5.png" alt="">
+                    <br><br>
+                    <strong>
+                        <li>
+                            <p>Click en instalar</p>
+                        </li>
+                    </strong>
+                    <img class="steps" src="imgs/step6.png" alt="">
+                    <br><br>
+                    <strong>
+                        <li>
+                            <p>Click en Si</p>
+                        </li>
+                    </strong>
+                    <img class="steps" src="imgs/step7.png" alt="">
+                    <br><br>
+                    <strong>
+                        <li>
+                            <p>Esperamos..</p>
+                        </li>
+                    </strong>
+                    <img class="steps" src="imgs/step8.png" alt="">
+                    <br><br>
+                    <strong>
+                        <li>
+                            <p>Click en finish</p>
+                        </li>
+                    </strong>
+                    <img class="steps" src="imgs/step9.png" alt="">
+
+                    <strong>
+                        <p>Y eso fue todo, ya esta instalado</p>
+                    </strong>
+                    <br>
+
+                    <strong>
+                        <li>Verificar instalación  desde la terminal que tengas con: <code>node -v</code> y <code>npm -v</code>.</li>
+                        <img class="steps" src="imgs/versionnode.png" alt="">
+                        <br>
+                        <img class="steps" src="imgs/versionNpm.png" alt="">
+                    </strong>
+                    
+                </ol>
+
+            </article>
+
+            <article class="mb-5 bg-white p-4 rounded shadow">
+                <h2>Importar y exportar módulos en Node.js</h2>
+                <li>Exportar</li>
+                <img class="steps" src="imgs/exportar.png" alt="">
+                <br>
+                <li>Importar</li>
+                <img class="steps" src="imgs/importar.png" alt="">
+
+            </article>
+
         </article>
 
+        <article class="mb-5 bg-secondary p-4 rounded shadow">
+            <h2 class="entry-title mb-3 "">¿Qué es npm y quién lo mantiene?</h2>
+            <hr>
+            <article class=" mb-5 bg-white p-4 rounded shadow">
 
-        <article class="mb-5 bg-white p-4 rounded shadow">
-            <h2>Diferencias entre JavaScript en el Frontend y en el Backend</h2>
-            <p><strong>Frontend:</strong> Se ejecuta en el navegador. Se usa para manipular el DOM, manejar eventos de
-                usuario, y actualizar la interfaz visual de una página web.</p>
-            <p><strong>Backend:</strong> Se ejecuta en el servidor (con Node.js). Se encarga de la lógica
-                de negocio, conexión con bases de datos, autenticación, y procesamiento de datos.</p>
-        </article>
-
-        <article class="mb-5 bg-white p-4 rounded shadow">
-            <h2>Ventajas y desventajas de usar JavaScript en el Backend</h2>
-            <p><strong>Ventajas:</strong> Uso de un solo lenguaje (JS) para frontend y backend, gran comunidad, no
-                bloqueante (event loop), ideal para APIs.</p>
-            <p><strong>Desventajas:</strong> No tan eficiente como otros lenguajes en operaciones intensas de CPU, menos
-                robusto en comparación con lenguajes como Java o C#.</p>
-        </article>
-
-        <article class="mb-5 bg-white p-4 rounded shadow">
-            <h2>Instalación y configuración de Node.js</h2>
-            <ol>
-                <li>Ir a la página oficial: <a href="https://nodejs.org" target="_blank">nodejs.org</a></li>
-                <li>Descargar la versión LTS.</li>
-                <li>Ejecutar el instalador y seguir los pasos.</li>
-                <li>Verificar instalación con: <code>node -v</code> y <code>npm -v</code>.</li>
-            </ol>
-            <p><em>Capturas de pantalla deben ser agregadas si es para entrega en clase.</em></p>
-        </article>
-
-        <article class="mb-5 bg-white p-4 rounded shadow">
-            <h2>Importar y exportar módulos en Node.js</h2>
-            <p><strong>operaciones.js:</strong></p>
-            <pre><code>function suma(a, b) {
-    return a + b;
-}
-module.exports = suma;</code></pre>
-
-            <p><strong>app.js:</strong></p>
-            <pre><code>const suma = require('./operaciones');
-console.log(suma(2, 3));</code></pre>
-        </article>
-
-        <article class="mb-5 bg-white p-4 rounded shadow">
-            <h2>¿Qué es npm y quién lo mantiene?</h2>
-            <p>NPM (Node Package Manager) es el sistema de gestión de paquetes para Node.js. Permite instalar
-                bibliotecas y herramientas. Es mantenido por GitHub y la comunidad de Node.js.</p>
+                <p><strong>NPM (Node Package Manager)</strong> es el sistema de gestión de paquetes para Node.js.
+                    Permite instalar
+                    bibliotecas y herramientas. Es mantenido por GitHub y la comunidad de Node.js.</p>
 
         </article>
 
         <article class="mb-5 bg-white p-4 rounded shadow">
             <h2>¿Qué es Yarn y en qué se diferencia de npm?</h2>
-            <p>Yarn es otro gestor de paquetes creado por Facebook. Es más rápido en instalaciones debido a su caché y
+            <p>Yarn es otro gestor de paquetes creado por Facebook. Es más rápido en instalaciones debido a su caché
+                y
                 trabaja con un enfoque más estricto con dependencias.</p>
         </article>
 
@@ -108,7 +209,8 @@ console.log(suma(2, 3));</code></pre>
             <h2>Diferencias entre yarn.lock y package-lock.json</h2>
             <ul>
                 <li><strong>Formato:</strong> yarn.lock es para Yarn, package-lock.json es para npm.</li>
-                <li><strong>Compatibilidad:</strong> yarn.lock solo es útil con Yarn; package-lock.json solo con npm.
+                <li><strong>Compatibilidad:</strong> yarn.lock solo es útil con Yarn; package-lock.json solo con
+                    npm.
                 </li>
             </ul>
         </article>
@@ -133,12 +235,17 @@ console.log(suma(2, 3));</code></pre>
             </ul>
         </article>
 
+        </article>
+
         <article class="mb-5 bg-white p-4 rounded shadow">
             <h2>¿Para qué sirven estos módulos?</h2>
             <ul>
-                <li><strong>express:</strong> Framework web.</li>
+                <li><strong>express:</strong> Express es un framework para Node.js que te ayuda a crear servidores web
+                    de forma rápida,</li>
                 <li><strong>mongodb:</strong> Conexión con MongoDB.</li>
-                <li><strong>mongoose:</strong> ODM para MongoDB. (Object Document Mapper) es una herramienta que se utiliza para trabajar con bases de datos NoSQL,<br> como MongoDB, de una forma más sencilla y organizada.</li>
+                <li><strong>mongoose:</strong> ODM para MongoDB. (Object Document Mapper) es una herramienta que se
+                    utiliza para trabajar con bases de datos NoSQL,<br> como MongoDB, de una forma más sencilla y
+                    organizada.</li>
                 <li><strong>path:</strong> Manipulación de rutas de archivos.</li>
                 <li><strong>router:</strong> Manejo de rutas (parte de Express).</li>
                 <li><strong>nodemon:</strong> Reinicio automático del servidor.</li>
@@ -147,9 +254,12 @@ console.log(suma(2, 3));</code></pre>
                 <li><strong>multer:</strong> Carga de archivos.</li>
                 <li><strong>morgan:</strong> Logs de peticiones HTTP.</li>
                 <li><strong>prettier:</strong> Formateador de código.</li>
-                <li><strong>debug:</strong> Sistema de logs.</li>
+                <li><strong>debug:</strong> Sistema de logs. librería de Node.js que te ayuda a ver mensajes en la
+                    consola para entender qué está pasando dentro de tu app.</li>
                 <li><strong>jade:</strong> Motor de plantillas (ahora llamado Pug).</li>
-                <li><strong>passport:</strong> Autenticación.</li>
+                <li><strong>passport:</strong> Para autenticar usuarios en tu app: Login con usuario y contraseña, Login
+                    con Google, Facebook, GitHub, Twitter, etc; Mantener sesiones de usuario (saber quién está
+                    logueado).</li>
             </ul>
         </article>
 
@@ -167,8 +277,10 @@ console.log(suma(2, 3));</code></pre>
             <h2>3 módulos interesantes</h2>
             <ul>
                 <li><strong>chalk:</strong> Colorea texto en la terminal.</li>
-                <li><strong>figlet:</strong> Se puede usar en proyectos de Node.js para imprimir mensajes bonitos en la terminal o incluso en páginas web para mostrar texto con estilo retro de ASCII art.</li>
-                <li><strong>dotenv:</strong> Maneja variables de entorno. Son valores que usas para configurar tu app, como contraseñas, claves API, URLs de bases de datos, puertos, etc.</li>
+                <li><strong>figlet:</strong> Se puede usar en proyectos de Node.js para imprimir mensajes bonitos en la
+                    terminal o incluso en páginas web para mostrar texto con estilo retro de ASCII art.</li>
+                <li><strong>dotenv:</strong> Maneja variables de entorno. Son valores que usas para configurar tu app,
+                    como contraseñas, claves API, URLs de bases de datos, puertos, etc.</li>
             </ul>
         </article>
 
